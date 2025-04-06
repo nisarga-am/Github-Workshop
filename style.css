@@ -1,0 +1,63 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background base */
+body, html {
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+    background: radial-gradient(ellipse at bottom, #2b003d 0%, #000000 100%);
+    color: #fff;
+}
+  
+  /* Foreground content */
+  .content {
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #e1bfff;
+  }
+  
+  p {
+    margin-bottom: 2rem;
+    color: #d4c5f5;
+  }
+  
+  /* Grid layout */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Name cards */
+  .card {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 2px solid #bb86fc;
+    border-radius: 12px;
+    padding: 1.5rem;
+    font-weight: bold;
+    color: #f9f1ff;
+    box-shadow: 0 8px 16px rgba(187, 134, 252, 0.4);
+    text-transform: uppercase;
+    transition: transform 0.2s ease-in-out, background-color 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
