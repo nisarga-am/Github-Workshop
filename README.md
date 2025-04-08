@@ -16,50 +16,50 @@ Click the **Fork** button at the top-right of this page to create your own copy 
 ### 2. **Clone your forked repo**
 Open your terminal and run:
 ```bash
-git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
-Replace YOUR-USERNAME and REPO-NAME with your actual GitHub username and the repo name.
+git clone https://github.com/DarshanKrishna-DK/Github-Workshop.git
+```
 
 3. Navigate into the project folder
-bash
-Copy
-Edit
+```bash
 cd REPO-NAME
+```
+
 4. Open index.html in your code editor
 Look for the following part in the file:
 
-html
-Copy
-Edit
+```html
 <div class="grid">
   <!-- 🔽 Copy & paste the card below -->
   <div class="card">Darshan Krishna N</div>
   <!-- Add your card below this line -->
 </div>
+```
+
 5. Add your name card
 Copy and paste the line and change the name to yours. For example:
 
-html
-Copy
-Edit
+```html
 <div class="card">Your Name Here</div>
+```
+
 Make sure you add your card below the comment that says:
 <!-- Add your card below this line -->
 
 6. Save the file
+   
 7. Commit your changes
-bash
-Copy
-Edit
+```bash
 git add index.html
 git commit -m "Added my name card"
-8. Push your changes to your fork
-bash
-Copy
-Edit
+```
+
+9. Push your changes to your fork
+```bash
 git push origin main
+```
 (Or git push origin your-branch-name if you're working on a separate branch)
 
-9. Create a Pull Request
+10. Create a Pull Request
 Go to your forked repository on GitHub.
 
 Click the "Compare & pull request" button.
@@ -72,3 +72,7 @@ Submit the pull request!
 You're now a contributor! Once your PR is reviewed and merged, your name will appear on the main page for all to see.
 
 Happy Coding 💻💙
+
+```yaml
+Let me know if you want to include screenshots or want to host the HTML page using GitHub Pages for live previews!
+```
