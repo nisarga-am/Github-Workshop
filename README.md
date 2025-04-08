@@ -16,7 +16,8 @@ Click the **Fork** button at the top-right of this page to create your own copy 
 ### 2. **Clone your forked repo**
 Open your terminal and run:
 ```bash
-git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
+[git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
+](https://github.com/DarshanKrishna-DK/Github-Workshop.git)
 ```
 
 Replace YOUR-USERNAME and REPO-NAME with your actual GitHub username and the repo name.
