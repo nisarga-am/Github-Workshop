@@ -31,7 +31,7 @@ html
 Copy
 Edit
 <div class="grid">
-  <!-- 🔽 Students will copy & paste the card below -->
+  <!-- 🔽 Copy & paste the card below -->
   <div class="card">Darshan Krishna N</div>
   <!-- Add your card below this line -->
 </div>
