@@ -17,6 +17,8 @@ Click the **Fork** button at the top-right of this page to create your own copy 
 Open your terminal and run:
 ```bash
 git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
+```
+
 Replace YOUR-USERNAME and REPO-NAME with your actual GitHub username and the repo name.
 
 3. Navigate into the project folder
